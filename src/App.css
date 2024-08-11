@@ -1,3 +1,4 @@
+/* Custom styles for responsiveness */
 .custom {
   position: absolute;
   left: 0;
@@ -6,14 +7,11 @@
   width: 100%;
   overflow: hidden;
   line-height: 0;
-  /* background: rgb(84, 114, 232); */
-  /* background: linear-gradient(0deg, rgb(232, 84, 84) 0%, rgba(245, 198, 208, 0.922) 70%, rgba(255, 255, 255, 0.896796218487395) 100%); */
   height: 600px;
   max-height: fit-content;
 }
 
 .custom svg {
-  /* animation: wave 1s linear infinite; */
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
@@ -22,93 +20,47 @@
   top: 380px;
 }
 
-
-/* For large mobile devices (portrait) */
-@media (max-width: 360px) {
-
-  .mt-20.relative.About-2 {
-    /* background-color: transparent;
-    width: 200px;
-    height: 250px;
-    border-radius: 48% 25% 50% 25% / 62% 46% 54% 35%; */
-    /* border: 2px solid rgb(37, 37, 37); */
-    /* border-bottom: 2px solid rgb(37, 37, 37); */
-    /* box-shadow: 20px 20px 50px 1px rgb(248, 228, 228);
-    background-image: url('../src/assets/Computer2.png');
-    background-size: 20%;
-    background-position-x: center;
-    background-position-y: 130%;
-    background-repeat: no-repeat; */
-    display: none;
-  }
-
-
+/* Responsive adjustments */
+@media (max-width: 768px) {
   .custom {
-    position: absolute;
-    left: 0;
-    top: 7%;
-    z-index: -1;
-    width: 88%;
-    overflow: hidden;
-    line-height: 0;
     height: 400px;
     max-height: fit-content;
   }
 
   .custom svg {
-    /* animation: wave 1s linear infinite; */
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
     height: 150px;
-    bottom: 0;
     top: 250px;
-    z-index: 111;
+  }
+
+  .About-2 {
+    display: none; /* Hide on mobile and tablet screens */
   }
 }
 
-/* For tablets */
 @media (min-width: 768px) {
   .custom {
-    position: absolute;
-    left: 0;
-    top: 7%;
-    z-index: -1;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    /* background: rgb(84, 114, 232); */
-    /* background: linear-gradient(0deg, rgb(232, 84, 84) 0%, rgba(245, 198, 208, 0.922) 70%, rgba(255, 255, 255, 0.896796218487395) 100%); */
     height: 600px;
-    max-height: fit-content;
   }
 
   .custom svg {
-    /* animation: wave 1s linear infinite; */
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
     height: 240px;
-    bottom: 0;
     top: 380px;
   }
-}
 
-/* .custom .shape-fill {
-  fill: #FFFFFF;
-} */
+  .About-2 {
+    display: block; /* Show on medium and larger screens */
+  }
+}
 
 .About-1 {
   background-color: #f09292;
   width: 300px;
   height: 330px;
   border-radius: 48% 25% 50% 25% / 62% 46% 54% 35%;
-  /* border: 2px solid rgb(37, 37, 37); */
   box-shadow: 5px 15px 40px 2px gray;
   background-image: url('../src/assets/myimg.jpg');
   background-size: 120%;
-  background-position-x: center;
-  background-position-y: 90%;
+  background-position: center 90%;
   background-repeat: no-repeat;
 }
 
@@ -117,66 +69,11 @@
   width: 400px;
   height: 350px;
   border-radius: 48% 25% 50% 25% / 62% 46% 54% 35%;
-  /* border: 2px solid rgb(37, 37, 37); */
-  /* border-bottom: 2px solid rgb(37, 37, 37); */
   box-shadow: 20px 20px 50px 1px rgb(248, 228, 228);
   background-image: url('../src/assets/Computer2.png');
   background-size: 100%;
-  background-position-x: center;
-  background-position-y: 130%;
+  background-position: center 130%;
   background-repeat: no-repeat;
 }
 
-a:active {
-  padding-top: 6px;
-  padding-bottom: 6px;
-  padding-left: 16px;
-  padding-right: 16px;
-  font-weight: 600;
-  border-radius: 4px;
-}
 
-
-
-
-
-
-
-
-
-
-
-
-@keyframes wave {
-  0% {
-    transform: translateX(0);
-  }
-
-  50% {
-    transform: translateX(2%);
-  }
-
-  100% {
-    transform: translateX(3%);
-  }
-}
-
-
-::-webkit-scrollbar {
-  width: 5px;
-  height: 5px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #f09292;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #f09292;
-}
-
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  border-radius: 10px;
-}
