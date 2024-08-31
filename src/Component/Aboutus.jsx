@@ -70,7 +70,7 @@ const Aboutus = () => {
               </a>
               <div data-aos="zoom-in-up" data-aos-duration="1800">
                 <a
-                  href="https://drive.google.com/file/d/1UuhJhuCDZskp6QwCMhT6TXhLSNUdTAlJ/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1ddyyQYHxjn9XvtjewDRFKBY6UKO19LSa/view?usp=sharing"
                   target="blank"
                 >
                   <button className="border hover:bg-opacity-80 bg-green-600 px-6 sm:px-8 py-3 sm:py-4 rounded-full text-white font-sans font-bold text-base sm:text-lg">
