@@ -7,8 +7,8 @@
   width: 100%;
   overflow: hidden;
   line-height: 0;
-  height: 600px;
-  max-height: fit-content;
+  /* height: 600px;
+  max-height: fit-content; */
 }
 
 .custom svg {

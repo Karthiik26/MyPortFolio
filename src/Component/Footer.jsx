@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
-import { FaSquareGithub } from "react-icons/fa6";
+import { FaPhoneFlip, FaSquareGithub } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -23,9 +23,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col md:flex-row justify-between items-center mx-8 mt-4">
           <div className="flex justify-center gap-3 items-center mb-4 md:mb-0">
-            <div className="font-serif font-extrabold text-md">
-              &copy; 2024
-            </div>
+            <div className="font-serif font-extrabold text-md">&copy; 2024</div>
             <div className="font-serif font-medium text-md">
               Created By Karthik Nagula
             </div>
@@ -56,7 +54,7 @@ const Footer = () => {
               data-aos="fade-"
               data-aos-duration="2000"
               className="animate-flyinBottom2 hover:bg-gray-600 dark:hover:bg-white dark:hover:text-black hover:text-white hover:rounded-full p-3"
-              href="mailto:imkarthiik26@gmail.com"
+              href="mailto:karthiknagula.dev@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -72,6 +70,17 @@ const Footer = () => {
               rel="noopener noreferrer"
             >
               <FaWhatsapp size={22} />
+            </a>
+            <a
+              data-aos="fade-"
+              data-aos-duration="2000"
+              className="animate-flyinBottom2 cursor-pointer hover:bg-gray-600 dark:hover:bg-white dark:hover:text-blue-600 hover:text-blue-400 bg-blue-500 rounded-full p-3"
+              href="tel:7385494029"
+              aria-label="Chat on WhatsApp"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaPhoneFlip size={22} />
             </a>
           </div>
         </div>

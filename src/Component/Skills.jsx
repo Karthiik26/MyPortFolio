@@ -78,6 +78,9 @@ const Skills = () => {
               JAVASCRIPT
             </div>
             <div className="my-2 py-2 px-4 text-sm sm:text-lg text-gray-500 rounded-lg hover:text-black hover:border-b-2 hover:border-b-black hover:bg-green-200 ">
+              TYPESCRIPT
+            </div>
+            <div className="my-2 py-2 px-4 text-sm sm:text-lg text-gray-500 rounded-lg hover:text-black hover:border-b-2 hover:border-b-black hover:bg-green-200 ">
               NODE JS
             </div>
           </div>
@@ -90,6 +93,9 @@ const Skills = () => {
             </div>
             <div className="my-2 py-2 px-4 text-sm sm:text-lg text-gray-500 rounded-lg hover:text-black hover:border-b-2 hover:border-b-black hover:bg-red-200">
               ANGULAR JS
+            </div>
+            <div className="my-2 py-2 px-4 text-sm sm:text-lg text-gray-500 rounded-lg hover:text-black hover:border-b-2 hover:border-b-black hover:bg-red-200">
+              NEXT JS
             </div>
             <div className="my-2 py-2 px-4 text-sm sm:text-lg text-gray-500 rounded-lg hover:text-black hover:border-b-2 hover:border-b-black hover:bg-red-200">
               MONGO DB
